@@ -65,14 +65,17 @@ function LadoDireito
         Somar
       </button>
       <button
-        className="border text-red-700 border-red-700  p-4 text-xl font-bold rounded hover:scale-110 hover:opacity-45 hover:cursor-pointer"
+        className="border text-slate-200 bg-orange-500 border-white  p-4 text-xl font-bold rounded hover:scale-110 hover:opacity-45 hover:cursor-pointer"
         onClick={Limpar}
       >
         Limpar
       </button>
       <div className="w-full text-end">
 
-      <label className="text-orange-500 text-md   bg-white p-2 rounded">Prof. Cosme Teixeira Silva</label>
+      <div className='flex flex-col gap-y-1' >
+      <label className="text-orange-500 text-md    p-1 rounded">Prof. Cosme Teixeira Silva</label>
+      <label className="text-orange-500 text-md    p-1 rounded">Ano 2025</label>
+      </div>
       </div>
     </div>
   )
