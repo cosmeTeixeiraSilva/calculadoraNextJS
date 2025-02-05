@@ -37,7 +37,7 @@ function LadoDireito
 
   return (
     <div className='flex flex-col space-y-4 w-1/2 '>
-          <h1 className="text-orange-500 text-3xl  text-center">Calculadora com NextJS</h1>
+         
       <input
         type="number"
         className="rounded p-4 text-4xl text-orange-400 text-center"
@@ -73,8 +73,8 @@ function LadoDireito
       <div className="w-full text-end">
 
       <div className='flex flex-col gap-y-1' >
-      <label className="text-orange-500 text-md    p-1 rounded">Prof. Cosme Teixeira Silva</label>
-      <label className="text-orange-500 text-md    p-1 rounded">Ano 2025</label>
+      <label className="text-slate-200 text-md    rounded">Prof. Cosme Teixeira Silva</label>
+      <label className="text-slate-200 text-md     rounded">Ano 2025</label>
       </div>
       </div>
     </div>
