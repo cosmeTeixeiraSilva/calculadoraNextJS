@@ -40,20 +40,20 @@ function LadoDireito
          
       <input
         type="number"
-        className="rounded p-4 text-4xl text-orange-400 text-center"
+        className="rounded p-4 text-4xl text-orange-400 text-center appearance-none"
         value={numero_A}
         autoFocus
         onChange={(e) => setNumero_A(parseFloat(e.target.value))}
       />
       <input
         type="number"
-        className="rounded  p-4 text-4xl text-orange-400 text-center"
+        className="rounded  p-4 text-4xl text-orange-400 text-center appearance-none"
         value={numero_B}
         onChange={(e) => setNumero_B(parseFloat(e.target.value))}
       />
       <input
         type="number"
-        className="rounded  p-4 text-4xl text-orange-400 text-center"
+        className="rounded  p-4 text-4xl text-orange-400 text-center read-only"
         value={resultado}
         readOnly // Torna o campo somente leitura
       />
