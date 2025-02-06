@@ -64,7 +64,7 @@ function LadoDireito() {
         Limpar
       </button>
       <div className="w-full text-end">
-        <div className="flex flex-col gap-y-1">
+        <div className="flex flex-col gap-y-1 items-center sm:items-end">
           <label className="text-slate-200 text-md    rounded">
             Prof. Cosme Teixeira Silva
           </label>
