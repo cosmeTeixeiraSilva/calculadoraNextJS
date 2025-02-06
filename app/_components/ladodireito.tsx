@@ -52,13 +52,13 @@ function LadoDireito() {
       />
 
       <button
-        className="border  p-4 text-xl font-bold rounded hover:scale-110 hover:opacity-45 hover:cursor-pointer"
+        className="border bg-blue-600 text-white  p-4 text-xl font-bold rounded hover:scale-110 hover:opacity-45 hover:cursor-pointer"
         onClick={Calcular}
       >
         Somar
       </button>
       <button
-        className="border text-slate-200 bg-orange-500 border-white  p-4 text-xl font-bold rounded hover:scale-110 hover:opacity-45 hover:cursor-pointer"
+        className="border text-white bg-orange-500 border-white  p-4 text-xl font-bold rounded hover:scale-110 hover:opacity-45 hover:cursor-pointer"
         onClick={Limpar}
       >
         Limpar
