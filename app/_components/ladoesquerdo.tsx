@@ -10,14 +10,6 @@ function LadoEsquerdo() {
         height={300}
         alt="Picture of the author"
       />
-
-      <Image
-        src="/Senac_logo.svg.png"
-        alt="Descrição da imagem"
-        width={100}
-        height={100}
-        className="bg-white rounded p-2 shadow-orange-50"
-      />
     </div>
   );
 }
