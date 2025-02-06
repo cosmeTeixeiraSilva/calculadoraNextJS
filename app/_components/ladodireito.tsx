@@ -30,7 +30,7 @@ function LadoDireito
     setNumero_A(0);
     setNumero_B(0);
     setResultado(0);
-    window.location.reload();
+ 
     
 
   }
