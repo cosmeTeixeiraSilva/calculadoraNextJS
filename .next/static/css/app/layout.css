@@ -539,6 +539,9 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
 .flex {
   display: flex;
 }
@@ -583,6 +586,9 @@ video {
 }
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-center {
   justify-content: center;
@@ -770,6 +776,10 @@ body {
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:gap-x-10 {

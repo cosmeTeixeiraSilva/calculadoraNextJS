@@ -5,13 +5,13 @@ import LadoDireito from "./_components/ladodireito";
 import Image from "next/image";
 export default function Home() {
   return (
-    <div className="flex flex-col sm:w-2/3 mx-auto h-screen w-screen text-center justify-center p-3 space-y-4">
+    <div className="flex flex-col sm:w-2/3 mx-auto h-screen w-screen text-center justify-start sm:justify-center p-3 space-y-4">
       <Image
         src="/Senac_logo.svg.png" // Caminho da imagem
         alt="Descrição da Imagem"
         width={90} // Largura da imagem
         height={60} // Altura da imagem
-        className="text-center  mx-auto my-1 sm:hidden bg-white p-1 rounded "
+        className="text-center  mx-auto mt-4 sm:hidden bg-white p-1 rounded  "
       />
       <label className="text-orange-500 text-xl sm:text-3xl  text-center my-4 hidden sm:block">
         Calculadora <span className="text-white">NEXT.JS</span>{" "}
