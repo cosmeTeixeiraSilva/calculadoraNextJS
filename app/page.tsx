@@ -11,7 +11,7 @@ export default function Home() {
         alt="Descrição da Imagem"
         width={90} // Largura da imagem
         height={60} // Altura da imagem
-        className="text-center  mx-auto my-4 sm:hidden bg-white p-2 rounded "
+        className="text-center  mx-auto my-1 sm:hidden bg-white p-1 rounded "
       />
       <label className="text-orange-500 text-xl sm:text-3xl  text-center my-4 hidden sm:block">
         Calculadora <span className="text-white">NEXT.JS</span>{" "}
